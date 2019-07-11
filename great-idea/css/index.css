@@ -201,3 +201,9 @@ h3 {
 	display: flex;
 	border: 2px solid orange;
 }
+
+
+
+ul li {
+	list-style-type: square;
+ }
