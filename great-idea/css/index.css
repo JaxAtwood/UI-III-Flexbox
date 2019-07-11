@@ -197,13 +197,89 @@ h3 {
 
 /*This is the start of my services.HTML CSS associated code*/
 
-.services-header-img {
-	display: flex;
-	border: 2px solid orange;
+.services-container{
+	width: 900px;
+	margin: 0 auto;
 }
 
+.navbar {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
 
+.services-header-img {
+	display: flex;
+	width: 900px;
+}
+
+.opening {
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+.menu {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	height: 800px;
+	justify-content: space-between;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+h3 {
+	display: flex;
+	flex-direction: column;
+}
+
+.child-menu {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap; 
+	width: 48%;
+	border: black solid 2px;
+	height: 250px;
+	padding-left: 15px;
+	background-color: #E5E8E8;
+}
+
+hr {
+	margin: 0 auto;
+	width: 900px;
+	text-align: center;
+}
+
+.child-menu .service-link {
+	border: 2px solid black;
+	margin-top: 10px;
+	width: 40%;
+	text-align: center;
+	border-radius: 5px;
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+	background-color: white;
+}
 
 ul li {
 	list-style-type: square;
+ }
+
+ .ending {
+	 display: flex;
+	 margin-top: 20px;
+	 margin-bottom: 20px;
+ }
+
+ .some-facts {
+	 display: flex;
+	 margin-top: 20px;
+	 margin-bottom: 20px;
+	 width: 400px;
  }
