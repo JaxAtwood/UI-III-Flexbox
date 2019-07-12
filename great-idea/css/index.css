@@ -142,6 +142,7 @@ header {
 
 .jumbotron{
 	display: flex;
+	margin: 30px;
 }
 
 .cta{
@@ -150,18 +151,18 @@ header {
 	justify-content: center;
 }
 
-.header-img {
-	display: flex;
+hr {
+	margin-top: 30px;
 }
 
 .inline {
 	display:flex;
+	justify-content: space-between;
 }
 
-h1{
-	font-size: 50px;
+.IOD{
 	text-align: center;
-	display: flex;
+	font-size: 65px;
 }
 
 footer {
@@ -205,6 +206,10 @@ h3 {
 .navbar {
 	margin-top: 20px;
 	margin-bottom: 20px;
+}
+
+header nav a {
+	margin-right: 65px;
 }
 
 .services-header-img {
@@ -267,8 +272,9 @@ hr {
 	background-color: white;
 }
 
-ul li {
+ul {
 	list-style-type: square;
+	margin: 20px;
  }
 
  .ending {
